@@ -14,12 +14,15 @@
     double width;
 }
 
--(void)setHeight:(double)newHeight;
--(double)height;
--(void)setWidth:(double)newWidth;
--(double)width;
+//-(void)setHeight:(double)newHeight Width:(double)newWidth;
+//-(double)height;
+//-(double)width;
 
+@property (nonatomic, assign) double height;
+@property (nonatomic, assign) double width;
 -(double)Area;
 
+-(id)init;
+-(id)initWithHeight:(double)aHeight Width:(double)aWidth;
 
 @end

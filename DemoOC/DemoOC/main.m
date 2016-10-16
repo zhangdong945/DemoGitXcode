@@ -9,23 +9,35 @@
 #import <Foundation/Foundation.h>
 #import "Cattle.h"
 #import "Rectangle.h"
+#import "Complex.h"
 
 int main(int argc, const char * argv[]) {
   // using ARC
     @autoreleasepool {
         // insert code here...
+        Complex* a = [[Complex alloc] initWithReal:10 Imag:20];
+    //    NSLog(@"Result: %g + %gi", a.real, a.imag);
+        Complex* b = [[Complex alloc] initWithReal:30 Imag:40];
+    //    NSLog(@"Result: %g + %gi", b.real, b.imag);
+        
+        Complex* c = [a add:b];
+        NSLog(@"%@ + %@ = %@\n", a, b, c);
+    
+        
         //NSLog(@"Hello, World!");
-        Cattle* cattle = [[Cattle alloc] init];
-        [cattle setLegsCount:4];
-        [cattle saySomething];
-        
-        Rectangle* myRect = [[Rectangle alloc] init];
-        [myRect setHeight:25.2];
-        [myRect setWidth:25.0];
-        
-        NSLog(@"Current rectangle length is %f \n", [myRect height]);
-        NSLog(@"Current rectangle width is %f! \n", [myRect width]);
-        NSLog(@"Current rectangle area is %f! \n", [myRect Area]);
+//        Cattle* cattle = [[Cattle alloc] init];
+//        [cattle setLegsCount:4];
+//        [cattle saySomething];
+//        
+//        Rectangle* myRect = [[Rectangle alloc] init];
+//        NSLog(@"Width: %g Height: %g Area: %g \n", [myRect width], [myRect height],[myRect Area]);
+//        
+//        myRect.width = 25;
+//        myRect.height  = 20;
+//        NSLog(@"Width: %g Height: %g Area: %g \n", [myRect width], [myRect height],[myRect Area]);
+//        NSLog(@"Current rectangle length is %g \n", [myRect height]);
+//        NSLog(@"Current rectangle width is %g \n", [myRect width]);
+//        NSLog(@"Current rectangle area is %g \n", [myRect Area]);
     
     }
 //    NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];

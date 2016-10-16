@@ -10,6 +10,7 @@
 		F4DA07411DB0FB3800401883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DA07401DB0FB3800401883 /* main.m */; };
 		F4DA07491DB0FC2B00401883 /* Cattle.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DA07481DB0FC2B00401883 /* Cattle.m */; };
 		F4DA074C1DB2037400401883 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DA074B1DB2037400401883 /* Rectangle.m */; };
+		F4DA074F1DB22D1D00401883 /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DA074E1DB22D1D00401883 /* Complex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		F4DA07481DB0FC2B00401883 /* Cattle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cattle.m; sourceTree = "<group>"; };
 		F4DA074A1DB2037400401883 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
 		F4DA074B1DB2037400401883 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		F4DA074D1DB22D1D00401883 /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
+		F4DA074E1DB22D1D00401883 /* Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				F4DA07401DB0FB3800401883 /* main.m */,
 				F4DA074A1DB2037400401883 /* Rectangle.h */,
 				F4DA074B1DB2037400401883 /* Rectangle.m */,
+				F4DA074D1DB22D1D00401883 /* Complex.h */,
+				F4DA074E1DB22D1D00401883 /* Complex.m */,
 				F4DA07471DB0FC2B00401883 /* Cattle.h */,
 				F4DA07481DB0FC2B00401883 /* Cattle.m */,
 			);
@@ -130,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DA074F1DB22D1D00401883 /* Complex.m in Sources */,
 				F4DA07491DB0FC2B00401883 /* Cattle.m in Sources */,
 				F4DA07411DB0FB3800401883 /* main.m in Sources */,
 				F4DA074C1DB2037400401883 /* Rectangle.m in Sources */,
