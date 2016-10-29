@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F493EA4B1DBBB5E5000BAEFF /* ASAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = F493EA4A1DBBB5E5000BAEFF /* ASAccount.m */; };
+		F493EA4E1DBBB65E000BAEFF /* ASPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = F493EA4D1DBBB65E000BAEFF /* ASPerson.m */; };
 		F4DA07411DB0FB3800401883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DA07401DB0FB3800401883 /* main.m */; };
 		F4DA07491DB0FC2B00401883 /* Cattle.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DA07481DB0FC2B00401883 /* Cattle.m */; };
 		F4DA074C1DB2037400401883 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DA074B1DB2037400401883 /* Rectangle.m */; };
@@ -26,6 +28,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F493EA491DBBB5E5000BAEFF /* ASAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASAccount.h; path = ../ASAccount.h; sourceTree = "<group>"; };
+		F493EA4A1DBBB5E5000BAEFF /* ASAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASAccount.m; path = ../ASAccount.m; sourceTree = "<group>"; };
+		F493EA4C1DBBB65E000BAEFF /* ASPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPerson.h; sourceTree = "<group>"; };
+		F493EA4D1DBBB65E000BAEFF /* ASPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPerson.m; sourceTree = "<group>"; };
 		F4DA073D1DB0FB3800401883 /* DemoOC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DemoOC; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DA07401DB0FB3800401883 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4DA07471DB0FC2B00401883 /* Cattle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cattle.h; sourceTree = "<group>"; };
@@ -66,6 +72,10 @@
 		F4DA073F1DB0FB3800401883 /* DemoOC */ = {
 			isa = PBXGroup;
 			children = (
+				F493EA491DBBB5E5000BAEFF /* ASAccount.h */,
+				F493EA4A1DBBB5E5000BAEFF /* ASAccount.m */,
+				F493EA4C1DBBB65E000BAEFF /* ASPerson.h */,
+				F493EA4D1DBBB65E000BAEFF /* ASPerson.m */,
 				F4DA07401DB0FB3800401883 /* main.m */,
 				F4DA074A1DB2037400401883 /* Rectangle.h */,
 				F4DA074B1DB2037400401883 /* Rectangle.m */,
@@ -135,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F493EA4E1DBBB65E000BAEFF /* ASPerson.m in Sources */,
 				F4DA074F1DB22D1D00401883 /* Complex.m in Sources */,
 				F4DA07491DB0FC2B00401883 /* Cattle.m in Sources */,
+				F493EA4B1DBBB5E5000BAEFF /* ASAccount.m in Sources */,
 				F4DA07411DB0FB3800401883 /* main.m in Sources */,
 				F4DA074C1DB2037400401883 /* Rectangle.m in Sources */,
 			);
@@ -169,7 +181,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -217,7 +229,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -269,6 +281,7 @@
 				F4DA07461DB0FB3800401883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

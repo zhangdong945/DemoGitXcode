@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ASMotionViewController addImages]:ASMotionViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.rightImageView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ASMotionViewController setDefaultImage]:ASMotionViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.leftImageView.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ASMotionViewController addPageControl]:ASMotionViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.pageControl.center">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ASMotionViewController addScrollView]:ASMotionViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.scrollView.contentOffset">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

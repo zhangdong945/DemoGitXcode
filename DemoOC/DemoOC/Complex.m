@@ -29,8 +29,12 @@
 }
 
 - (NSString*)description {
+    NSString* clsName = NSStringFromClass([self class]);
+    NSLog(@"My Class:%@", clsName);
+    
     NSString* str = [NSString stringWithFormat:@"(%g +  %gi)", real, imag];
     return str;
 }
+
 
 @end
